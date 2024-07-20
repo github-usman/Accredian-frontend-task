@@ -1,10 +1,8 @@
+import React from "react";
+import ReferAndEarn from "./pages/ReferAndEarn";
 
 function App() {
-  return (
-    <h1 className="text-3xl font-bold bg-black text-white underline">
-      Hello world!
-    </h1>
-  );
+  return <ReferAndEarn />;
 }
 
 export default App;
