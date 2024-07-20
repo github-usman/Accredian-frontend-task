@@ -16,8 +16,11 @@ const Faq = () => {
   };
 
   return (
-    <div className="m-auto px-1 mb-20 pt-[117px]  max-w-[1281px] w-full flex flex-col justify-center items-center">
-      <p className="text-[25px] font-sans font-[500] mb-5 ">
+    <div
+      id="refer__and__earn-Faq"
+      className="m-auto px-1 mb-[30px] md:mb-20 pt-[117px]  max-w-[1281px] w-full flex flex-col justify-center items-center"
+    >
+      <p className="text-[27.66px] font-[600] font-sans  mb-5 ">
         Frequently Asked <span className="text-dblue">Questions</span>
       </p>
       <div className="grid lg:grid-cols-[2fr_8fr] w-full gap-4">
@@ -50,7 +53,9 @@ const Faq = () => {
               className={`p-5 cursor-pointer ${openItem === index ? "bg-gray-100" : "bg-white"}`}
             >
               <div className="flex justify-between items-center">
-                <h3 className={`font-semibold duration-200 text-[16px] ${openItem === index ? "text-dblue" : ""}`}>
+                <h3
+                  className={`font-semibold duration-200 text-[16px] ${openItem === index ? "text-dblue" : ""}`}
+                >
                   {item.question}
                 </h3>
                 <div className="flex-shrink-0">
@@ -62,7 +67,7 @@ const Faq = () => {
                 </div>
               </div>
               <div
-                className={`mt-5 ms-4 font-inter text-[15px] font-normal transition-transform duration-500 ${openItem === index ? "block" : "hidden"}`}
+                className={`mt-5 ms-4 font-inter text-[15px] font-normal overflow-hidden transition-all duration-300 ease-in-out ${openItem === index ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
               >
                 {item.ans && <p>{item.ans}</p>}
               </div>

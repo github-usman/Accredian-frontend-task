@@ -9,7 +9,10 @@ import logo from "../assets/media/footer/logo.svg";
 
 const Footer = () => {
   return (
-    <div className="lg:px-52 px-3 md:px-0 w-full text-[#dad0d0] pt-[32px] bg-[#282828]">
+    <div
+      id="refer__and__earn-Footer"
+      className="lg:px-52 px-3 md:px-0 w-full text-[#dad0d0] pt-[32px] bg-[#282828]"
+    >
       <div className="container mx-auto grid  grid-cols-1 gap-4 md:gap-0   md:grid-cols-[8fr_3fr] ">
         <img src={logo} alt="accerdian logo" />
         <div className="flex flex-col justify-center">

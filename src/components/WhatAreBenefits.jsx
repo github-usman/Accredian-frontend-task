@@ -10,7 +10,10 @@ import { enrolledProgramm } from "../assets/constants/how_do_refer";
 
 const WhatAreBenefits = () => {
   return (
-    <div className="px-10 xl:px-52 py-5 flex flex-col justify-center items-center">
+    <div
+      id="refer__and__earn-Benefits"
+      className="px-[3px] md:px-52 py-0 md:py-5 flex flex-col justify-center items-center"
+    >
       <p className="text-[27.66px] font-[600] mb-[33px] text-[#1A202C]">
         What Are The <span className="text-dblue  ]">Referral Benefits?</span>
       </p>

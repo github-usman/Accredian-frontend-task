@@ -5,9 +5,9 @@ import { btnData } from "../assets/constants/how_do_refer";
 
 const HowDoRefer = () => {
   return (
-    <div className="bg-[#EEF5FF] h-full my-[75px]">
+    <div id="refer__and__earn-Refer" className="bg-[#EEF5FF] h-full my-[75px]">
       <div className="px-10 xl:px-52 lg:h-[492px] h-[982px]  py-5 flex flex-col lg:justify-center justify-between items-center gap-[0px]">
-        <p className="text-[20.66px] font-[600] text-[#1A202C] ">
+        <p className="text-[27.66px] font-[600] text-[#1A202C] ">
           How Do I <span className=" text-dblue">Refer?</span>
         </p>
         <div

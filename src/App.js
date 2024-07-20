@@ -2,7 +2,11 @@ import React from "react";
 import ReferAndEarn from "./pages/ReferAndEarn";
 
 function App() {
-  return <ReferAndEarn />;
+  return (
+    <div className="scroll-smooth">
+      <ReferAndEarn />
+    </div>
+  );
 }
 
 export default App;

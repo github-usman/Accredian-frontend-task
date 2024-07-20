@@ -17,7 +17,9 @@ module.exports = {
       lg: '990px',
       xl: '1280px',
     },
-    extend: {},
+    extend: {
+      scrollBehavior: ['responsive'],
+    },
   },
   plugins: [],
 }
