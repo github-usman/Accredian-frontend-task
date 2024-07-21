@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="w-full p-4 bg-blue text-center">
+    <div className="w-full p-4 bg-blue text-center sticky top-[0] z-40">
       <h1 className="text-black bg-transparent text-small ">
         Navigate your ideal carrer path with tailored expert advice{" "}
         <span className="text-dblue bg-transparent">Contact Expert</span>
