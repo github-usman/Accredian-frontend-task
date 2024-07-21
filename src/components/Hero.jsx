@@ -1,6 +1,5 @@
 import React from "react";
 import phone__and_couple from "../assets/media/hero/phone__and_couple.svg";
-import "../custom-styles/components/hero.css";
 import ReferNow from "./reusable-components/ReferNow";
 import money_1 from "../assets/media/hero/money_1.svg";
 import money_2 from "../assets/media/hero/money_2.svg";

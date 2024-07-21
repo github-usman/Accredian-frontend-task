@@ -37,9 +37,9 @@ const Footer = () => {
               "Strategy & Leadership",
               "Senior Management",
               "Fintech",
-            ].map((program) => (
+            ].map((program,index) => (
               <div
-                key={program}
+                key={index}
                 className="flex cursor-pointer items-start justify-between"
               >
                 <p className="mb-2 text-lg text-[#ffff] pb-[16px]">{program}</p>
@@ -118,8 +118,8 @@ const Footer = () => {
               "Privacy Policy",
               "Terms of Service",
               "Master FAQs",
-            ].map((item) => (
-              <p key={item} className="mb-2 text-sm">
+            ].map((item,index) => (
+              <p key={index} className="mb-2 text-sm">
                 {item}
               </p>
             ))}

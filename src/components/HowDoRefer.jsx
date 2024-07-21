@@ -14,9 +14,9 @@ const HowDoRefer = () => {
           style={{ backgroundImage: `url(${parent__image})` }}
           className=" h-[320px]  xsm:h-[491px] w-[982px] bg-contain transition-transform duration-300  rotate-90 lg:rotate-0 bg-center flex bg-no-repeat items-center justify-center gap-[10%] xsm:gap-[12.9%]"
         >
-          {btnData.map((val) => (
+          {btnData.map((val,index) => (
             <div
-              key={val}
+              key={index}
               className="transition-transform duration-300 rotate-[-90deg] lg:rotate-0 w-[150px] flex flex-col "
             >
               <img src={val.icon} alt="parent refer" className="h-[50px]" />

@@ -1,17 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import { useModalContext } from "../../context/ModalContext";
 
 const ReferNow = ({ pd_x, pd_y }) => {
-  const [visible, setVisible] = useState(false);
-  const handlevisible = () => setVisible((cur) => !cur);
-
-  const modalToggle = (visiblee) => {
-    console.log(visiblee);
-    handlevisible(visiblee);
-  };
+  const { toggleModal } = useModalContext();
   return (
     <div className="bg-inherit ">
       <button
-        onClick={() => modalToggle(visible)}
+        onClick={toggleModal}
         className="bg-dblue rounded-md text-sm text-white"
         style={{
           paddingLeft: pd_x,
