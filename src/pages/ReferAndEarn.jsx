@@ -26,7 +26,7 @@ const ReferAndEarn = () => {
     return () => {
       document.body.style.overflow = 'auto';
     };
-  }, [isModalVisible]);
+  }, [isModalVisible,isLoading,isSuccess,isFailed]);
 
 
   return (

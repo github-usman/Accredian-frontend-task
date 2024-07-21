@@ -13,10 +13,10 @@ const Footer = () => {
       id="refer__and__earn-Footer"
       className="lg:px-52 px-3 md:px-0 w-full text-[#dad0d0] pt-[32px] bg-[#282828]"
     >
-      <div className="container mx-auto grid  grid-cols-1 gap-4 md:gap-0   md:grid-cols-[8fr_3fr] ">
+      <div className="container mx-auto flex justify-between ">
         <img src={logo} alt="accerdian logo" />
         <div className="flex flex-col justify-center">
-          <p className="bg-dblue w-fit py-[4px] px-[40px] cursor-pointer text-[#fff] rounded-lg border-[#fff] border-2">
+          <p className="bg-dblue py-[4px] px-[40px] cursor-pointer text-[#fff] rounded-lg border-[#fff] border-2">
             Schedule 1-on-1 Call Now
           </p>
           <p className="ps-[20px]">Speak with our Learning Advisor</p>

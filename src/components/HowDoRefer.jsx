@@ -12,7 +12,7 @@ const HowDoRefer = () => {
         </p>
         <div
           style={{ backgroundImage: `url(${parent__image})` }}
-          className=" h-[320px]  xsm:h-[491px] w-[982px] bg-contain transition-transform duration-300  rotate-90 lg:rotate-0 bg-center flex bg-no-repeat items-center justify-center gap-[10%] xsm:gap-[12.9%]"
+          className=" h-[320px]  xsm:h-[491px] w-[982px] bg-contain transition-transform duration-300  rotate-90 lg:rotate-0 bg-center flex bg-no-repeat items-center justify-center gap-[10%] xsm:gap-[12.9%] "
         >
           {btnData.map((val,index) => (
             <div
@@ -24,7 +24,9 @@ const HowDoRefer = () => {
             </div>
           ))}
         </div>
+        <div className="z-10">
         <ReferNow pd_x={"72px"} pd_y={"20px"} />
+        </div>
       </div>
       ;
     </div>
